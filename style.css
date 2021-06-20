@@ -85,11 +85,120 @@ button{
 }
 
 
+.first_row_img{
+    width: 100%;
+}
+
+.first_img,.second_img{
+    width: 100%;
+    display: flex;
+}
+
+.second_row_img{
+    width: 100%;
+}
+
+.fourth_img,.third_img{
+    width: 100%;
+ }  
+
+
+ /*flex*/
+
+.restaurent_container{
+    width: 100%;
+}
+.restaurent_images_row_one,.restaurent_images_row_two{
+    width: 100%;
+    display:flex;
+    gap: 5px;
+}
+.restaurent_images_row_one
+    {
+        align-items: baseline;
+        margin-bottom: 3px;
+
+    }
 
 
 
 
+.restaurent_image_1,.restaurent_image_4{
+    width: 100%;
+    height: 150px;
+}
+.restaurent_image_2,.restaurent_image_3{
+    width: 120%;
+    height: 250px;
+}
 
+
+.restauret_1,.restauret_2,.restauret_3,.restauret_4{
+    width: 100%;
+    height: 100%;
+}
+
+
+.restaurent_text{
+     font-size: 30px;
+     margin-top: 80px;
+
+}
+#secondary_button{background-image: linear-gradient(
+    to right,
+    #ff512f 0%,#dd2476 51%,
+    #ff512f 100%
+);
+   font-size: 12px;
+   height: 30px;
+}
+.form_title{
+
+    display: flex;
+    gap: 8px;
+}
+.title{
+    margin-top: 15px;
+    margin-bottom:10px ;
+}
+
+.form_container{
+    margin: 20px;
+  
+}
+
+.last_footer{
+    justify-content: space-around;
+    display:flex;
+    align-items: center;
+}
+.f_logo{
+    height: 50px;
+    width: 50%;
+}
+.foot_log{
+    height: 100%;
+    width: 100%;
+}
+ul{
+    list-style: none;}
+
+.last_step{
+    position: relative;
+}
+
+#f_gradient{
+  
+
+    margin-top: 50px;
+    width: 100%;
+    height: 120px;
+    background-color: #e23744;
+    border-radius: 20px;
+
+  
+
+}
 
 
 
@@ -116,18 +225,20 @@ button{
         padding:0 25px;
     }
     #piza_card{
-            margin-top: -20px;
-            margin-bottom: 30px;
+            margin-top: -30px;
+            margin-bottom: 50px;
         }
         .view_more_btn{
             display: flex;
             justify-content: center;
         }
         .explore_menu_container{
+            margin-top: 80px;
             position: relative;
             
         }
         #gradient{
+            
             position: absolute;
             top: 0;
             left: 0;
@@ -143,9 +254,59 @@ button{
             transform:skewY(-5deg);
             
         }
+        .restaurent_container{
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+            
+        }
+        .restaurent_text{
+            font-size: 50px;
+            width: 1100%;
+        }
+
+
+       .form_container{
+          
+           margin-top: 40px;
+      
+      
+    }
+    .form_title{
+       justify-content: center;
+        display: flex;
+        gap: 8px;
         
-   
- }
+    }
+    .title{
+        text-align:left;
+        margin-left: 220px;
+        margin-top: 15px;
+        margin-bottom:10px ;
+    }
+
+    .f_logo{
+        height: 100px;
+        width: 200px;
+    }
+    .foot_log{
+        height: 100%;
+        width: 100%;
+
+    }#f_gradient{
+        border-radius: 20px;
+
+        margin-top: 50px;
+        width: 100%;
+        height: 110px;
+        background-color: #e23744;
+     
+    }
+}
+
+
+
+
 
 @media (min-width:1020px){
     .hero_description{
@@ -153,6 +314,12 @@ button{
     }
     .hero_text{
         font-size: 50px;
+    }
+    .explore_menu_text{
+        font-size: 50px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        text-align: center;
     }
   
 }
