@@ -321,7 +321,12 @@ ul{
         margin-bottom: 20px;
         text-align: center;
     }
-  
+    .title{
+        text-align:left;
+        margin-left: 495px;
+        margin-top: 15px;
+        margin-bottom:10px ;
+    }
 }
 
 
